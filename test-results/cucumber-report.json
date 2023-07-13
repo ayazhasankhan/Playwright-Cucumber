@@ -1,0 +1,605 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-into-application-with-invalid-credentials;validate-login---negative-scenario",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Validate login - Negative Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 503302124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5970262125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User click on the login button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify \"Your username is invalid!\"",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228040124
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-into-application-with-invalid-credentials;validate-login---negative-scenario",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Validate login - Negative Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 199892417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5871412125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"student\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User click on the login button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify \"Your password is invalid!\"",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87844125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-into-application-with-invalid-credentials;validate-login---negative-scenario",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Validate login - Negative Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 206287000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5846259250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Password123\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User click on the login button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify \"Your username is invalid!\"",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87466374
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-into-application-with-invalid-credentials;validate-login---negative-scenario",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Validate login - Negative Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 215532917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5333098208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"student1\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Password124\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User click on the login button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify \"Your username is invalid!\"",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 103455915
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-into-application-with-invalid-credentials;validate-login---negative-scenario",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Validate login - Negative Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 208101541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5249384666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"student1\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Password123\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User click on the login button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify \"Your username is invalid!\"",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 86526249
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-into-application-with-invalid-credentials;validate-login---negative-scenario",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Validate login - Negative Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 219596042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4734223000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"student\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Password124\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User click on the login button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify \"Your password is invalid!\"",
+            "match": {
+              "location": "src/test/steps/loginNegativeSteps.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66426666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-into-application-with-invalid-credentials",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login into application with invalid credentials",
+    "tags": [],
+    "uri": "src/test/features/loginNegative.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-into-application-with-valid-credentials;login-should-be-success",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login should be success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 221055917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User go to the application",
+            "match": {
+              "location": "src/test/steps/loginPositiveSteps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4934472999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"student\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"Password123\"",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the login button",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "location": "src/test/steps/loginPositiveSteps.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 101534874
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-into-application-with-valid-credentials",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login into application with valid credentials",
+    "tags": [],
+    "uri": "src/test/features/loginPositive.feature"
+  }
+]
